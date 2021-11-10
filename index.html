@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Mini-Project-2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="lol">
+    <h1>miniproject 2</h1>
+ <h2>click on the button to see videos</h2>
+ 
+ 
+ <MAP NAME="remote.jpg42">
+    <div class="container">
+        <button class="b1" onClick="myFunction()"></button>
+        <button class="b2" onClick="myFunction2()"></button>
+        
+      </div>
+      
+      <div class="container">
+        <button class="b1" onClick="myFunction()"></button>
+        <button class="b2" onClick="myFunction2()"></button>
+       
+      </div>
+      
+      <div class="content">
+        <div id="first"><img src="./1.jpg"/> </div>
+        <div id="second"><MAP NAME="2.jpg42">
+            <AREA SHAPE="RECT" COORDS="265,155,284,170" HREF="https://www.youtube.com/watch?v=NdAiQcyM2Wc&t=335s">
+            </MAP>
+            <img src="2.jpg" border="0" width="439" height="212" usemap="#2.jpg42"> </div>
+
+      </div>
+          <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+      
+        
+            <script id="rendered-js" >
+      const myFunction = () => {
+        document.getElementById("first").style.display = 'block';
+        document.getElementById("second").style.display = 'none';
+        document.getElementById("third").style.display = 'none';
+      };
+      
+      const myFunction2 = () => {
+        document.getElementById("second").style.display = 'block';
+        document.getElementById("first").style.display = 'none';
+        document.getElementById("third").style.display = 'none';
+      };
+      
+      const myFunction3 = () => {
+        document.getElementById("third").style.display = 'block';
+        document.getElementById("first").style.display = 'none';
+        document.getElementById("second").style.display = 'none';
+      };
+      //# sourceURL=pen.js
+          </script>
+
+</div>
+</body>
+</html>
